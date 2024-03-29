@@ -1,2 +1,4 @@
-# GET http://localhost:4004/Employeeinfo HTTP/1.1
-GET http://port4004-workspaces-ws-c5ppn.us10.trial.applicationstudio.cloud.sap/odata/v4/employee/Employeeinfo HTTP/1.1
+
+
+GET http://localhost:4004/sample/Employeeinfo HTTP/1.1
+# GET http://port4004-workspaces-ws-c5ppn.us10.trial.applicationstudio.cloud.sap/odata/v4/employee/Employeeinfo HTTP/1.1
