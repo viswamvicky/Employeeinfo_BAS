@@ -2,17 +2,23 @@
   "name": "employeeinfo",
   "version": "1.0.0",
   "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
+  "repository": {
+    "type": "git",
+    "url": "<Add your repository here>"
+  },
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
     "@sap/cds": "^7",
-    "express": "^4"
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1"
   },
   "scripts": {
     "start": "cds-serve"
-  }
+  },
+  "main": "index.js",
+  "author": "viswa"
 }
+
